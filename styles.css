@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/SFPRODISPLAYMEDIUM.OTF') format('opentype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/SFPRODISPLAYBOLD.OTF') format('opentype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.nameLogo{
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#logo{
+    display: flex;
+    gap: 2px;
+}
+
+nav{
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    gap: 48px
+}
+
+nav a{
+    text-decoration: none;
+    color: #333333;
+    letter-spacing: 2%;
+}
+
+button{
+    font-family: 'SF Pro Display';
+    font-weight: 500px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#search{
+    font-family: 'SF Pro Display';
+    font-weight: 500px;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: #2F80ED;
+    letter-spacing: 2%;
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 18px 12px 18px;
+}
+
+#menu-buttons{
+    gap: 10px;
+    border-radius: 6px;
+    font-family: 'SF Pro Display';
+    font-weight: 500px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#register{
+    padding: 10px 18px 10px 18px;
+    border: 1px solid #2F80ED;
+    border-radius: 6px;
+    background: #FFFFFF;
+    color: #2F80ED;
+    line-height: 20px;
+}
+
+#sign-in{
+    background-color: #2F80ED ;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 18px 10px 18px;
+    color: white;
+    line-height: 20px;
+    width: 82px;
+    height: 40px;
+}
+
+#title{
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    line-height: 100%;
+    text-align: center;
+}
+
+#title-text{
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+#place{
+    border-radius: 4px;
+    padding: 11px 12px 12px 12px;
+    gap: 10px;
+    border: none;
+    background-color: #F2F2F2;
+    color: #4F4F4F;
+}
+
+#in-date{
+    border-radius: 4px;
+    padding: 11px 12px 12px 12px;
+    gap: 10px;
+    border: none;
+    background-color: #F2F2F2;
+    color: #4F4F4F;
+}
+
+#out-date{
+    border-radius: 4px;
+    padding: 11px 12px 12px 12px;
+    gap: 10px;
+    border: none;
+    background-color: #F2F2F2;
+    color: #4F4F4F;
+}
+
+#guests{
+    border-radius: 4px;
+    padding: 11px 12px 12px 12px;
+    gap: 10px;
+    border: none;
+    background-color: #F2F2F2;
+    color: #4F4F4F;
+}
+
+#warning{
+    width: 1240px;
+    height: 72px;
+    border-radius: 8px;
+    background-color: #FCEFCA;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#div-warning{
+    margin-left: 20px;
+}
+
+#warning a{
+    text-decoration: none;
+    color: #2F80ED;
+}
+
+h2{
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    color:#181818
+}
+
+#dream-vacation-text{
+    color: #333333;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 2%;
+}
+
+#dream-vacation h3{
+    color: #181818;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.properties{
+    color: #181818;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+}
+
+#destinations{
+    display: flex;
+    gap: 10px;
+}
+
+#inspiration-trip{
+    display: flex;
+    gap: 10px
+}
+
+#inspiration-trip img{
+    width: 400px;
+    height: 280px;
+}
+
+#inspiration-trip p{
+    color: white;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 2%;
+}
+
+#inspiration-trip h3{
+    color: white;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+
+#hotels h3{
+    color: #181818;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+#hotels p{
+    color: #181818;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+}
+
+#div-hotels{
+    display: flex;
+    gap: 10px;
+}
